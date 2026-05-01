@@ -49,9 +49,9 @@ Suede exposes current public x402 and ACP-ready surfaces for paid media workflow
 | App | `https://app.suedeai.xyz` |
 | Website | `https://suedeai.org` |
 | Company | `https://suedeai.ai` |
-| Token | `SUEDE_TOKEN_PUBLIC_README.md` |
-| x402 / ACP endpoints | `SUEDE_X402_ACP_PUBLIC_README.md` |
-| Brand assets | `SUEDE_BRAND_ASSETS_README.md` |
+| Token | [suede-token](https://github.com/jasoncola1/suede-token) |
+| x402 / ACP endpoints | [suede-x402-acp](https://github.com/jasoncola1/suede-x402-acp) |
+| Brand assets | [suede-brand-assets](https://github.com/jasoncola1/suede-brand-assets) |
 
 ## Token
 
@@ -65,9 +65,7 @@ Primary token references:
 
 See:
 
-```text
-SUEDE_TOKEN_PUBLIC_README.md
-```
+[suede-token](https://github.com/jasoncola1/suede-token)
 
 ## x402 and ACP
 
@@ -96,9 +94,7 @@ POST https://suede-ai-app.onrender.com/agents/commerce
 
 See:
 
-```text
-SUEDE_X402_ACP_PUBLIC_README.md
-```
+[suede-x402-acp](https://github.com/jasoncola1/suede-x402-acp)
 
 ## Ecosystem
 
