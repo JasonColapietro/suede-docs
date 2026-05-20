@@ -1,3 +1,5 @@
+> **Founder-attribution mirror.** Canonical source: [Suede-AI/suede-docs](https://github.com/Suede-AI/suede-docs). Updates land there first.
+
 # Suede Docs
 
 Public documentation for Suede Labs, programmable IP, creator ownership, and agent-ready media commerce.
