@@ -109,6 +109,25 @@ Current production ecosystem references documented in the public packet:
 | `Suedette` | Solana | `2PD1MnKURYLCCtds9hfvXpvJc6mjhMC5ruUWdFkZbonk` |
 | `Producer by Suede Labs: Clawdbot` (`SVID`) | Base | `0x2aed2c4dCB3D61938e36f3481dEFE553fac0ADbd` |
 | `JBDAO` | Solana | `2zEQm6mLbbU5uoEoGQk3JUX3XJB7qUSkGmjjVHd4VGb7` |
+## Suede Social — Founder Writing
+
+Long-form editorial from Jason Colapietro, Founder and CEO of Suede Labs.
+
+Current series: **Print the Quiet** — a nine-part series on tone, dynamics, and the parts of music that don't fit on a lead sheet.
+
+| # | Title |
+|---|---|
+| 1 | [Print the Quiet — Jeff Buckley and the *Hallelujah* recording](https://github.com/JasonColapietro/suede-brand-assets/blob/main/articles/jeff-buckley-tone-hallelujah.md) |
+| 2 | [The Loudness War, in Numbers](https://github.com/JasonColapietro/suede-brand-assets/blob/main/articles/loudness-war-in-numbers.md) |
+| 3 | [The Religion of the Compressor](https://github.com/JasonColapietro/suede-brand-assets/blob/main/articles/religion-of-the-compressor.md) |
+| 4 | [The Lost Art of Clean](https://github.com/JasonColapietro/suede-brand-assets/blob/main/articles/lost-art-of-clean.md) |
+| 5 | [The Room as Instrument](https://github.com/JasonColapietro/suede-brand-assets/blob/main/articles/room-as-instrument.md) |
+| 6 | [One Take, or Twenty](https://github.com/JasonColapietro/suede-brand-assets/blob/main/articles/one-take-or-twenty.md) |
+| 7 | [Tape Is a Compressor](https://github.com/JasonColapietro/suede-brand-assets/blob/main/articles/tape-is-a-compressor.md) |
+| 8 | [The Vocal Chain, 1994 → 2026](https://github.com/JasonColapietro/suede-brand-assets/blob/main/articles/vocal-chain-1994-2026.md) |
+| 9 | [What's in the Tape That Isn't in the Score](https://github.com/JasonColapietro/suede-brand-assets/blob/main/articles/whats-in-the-tape.md) |
+
+Series index: [suede-brand-assets/articles](https://github.com/JasonColapietro/suede-brand-assets/tree/main/articles).
 
 ## Language Guide
 
