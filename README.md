@@ -71,7 +71,7 @@ See:
 
 ## x402 and ACP
 
-Suede currently exposes public x402 endpoints for paid music and video generation workflows. Public docs should point agents to branded discovery surfaces instead of direct backend origins.
+Suede currently exposes public x402 endpoints for paid music and video generation workflows. Public docs should point agents to branded discovery surfaces instead of non-public service origins.
 
 Current public x402 discovery:
 
@@ -89,9 +89,8 @@ POST https://app.suedeai.ai/agent/video
 ```
 
 ACP-ready commerce is represented through public agent metadata and app-hosted
-x402 credit purchase flows. Direct backend origins, webhook-dependent routes,
-admin routes, and internal commerce endpoints are intentionally excluded from
-this public overview.
+x402 credit purchase flows. Internal origins, admin routes, and non-public
+commerce endpoints are intentionally excluded from this public overview.
 
 See:
 
