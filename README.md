@@ -71,7 +71,7 @@ See:
 
 ## x402 and ACP
 
-Suede currently exposes public x402 endpoints for paid music and video generation workflows, plus an ACP-ready backend endpoint for recording agent commerce intents.
+Suede currently exposes public x402 endpoints for paid music and video generation workflows. Public docs should point agents to branded discovery surfaces instead of direct backend origins.
 
 Current public x402 discovery:
 
@@ -88,11 +88,10 @@ POST https://app.suedeai.ai/create-music
 POST https://app.suedeai.ai/agent/video
 ```
 
-Current ACP-ready commerce endpoint:
-
-```text
-POST https://suede-ai-app.onrender.com/agents/commerce
-```
+ACP-ready commerce is represented through public agent metadata and app-hosted
+x402 credit purchase flows. Direct backend origins, webhook-dependent routes,
+admin routes, and internal commerce endpoints are intentionally excluded from
+this public overview.
 
 See:
 
@@ -102,13 +101,9 @@ See:
 
 The broader Suede ecosystem includes independent community launches and experiments. Public docs distinguish those from non-independent, officially live production ecosystem references.
 
-Current production ecosystem references documented in the public packet:
-
-| Name | Chain | Contract / Mint |
-|---|---|---|
-| `Suedette` | Solana | `2PD1MnKURYLCCtds9hfvXpvJc6mjhMC5ruUWdFkZbonk` |
-| `Producer by Suede Labs: Clawdbot` (`SVID`) | Base | `0x2aed2c4dCB3D61938e36f3481dEFE553fac0ADbd` |
-| `JBDAO` | Solana | `2zEQm6mLbbU5uoEoGQk3JUX3XJB7qUSkGmjjVHd4VGb7` |
+Current production ecosystem references are documented in the public token
+reference when they are meant for wallets, explorers, and reviewers. This repo
+keeps the overview focused on positioning and public discovery paths.
 ## Suede Social — Founder Writing
 
 Long-form editorial from Jason Colapietro, Founder and CEO of Suede Labs.
