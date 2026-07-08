@@ -53,6 +53,8 @@ Suede exposes current public x402 and ACP-ready surfaces for paid media workflow
 | Company | `https://suedeai.ai` |
 | Token | [suede-token](https://github.com/JasonColapietro/suede-token) |
 | x402 / ACP endpoints | [suede-x402-acp](https://github.com/JasonColapietro/suede-x402-acp) |
+| Python SDK | [suede-sdk-python](https://github.com/Suede-AI/suede-sdk-python) |
+| x402 ecosystem list | [awesome-x402](https://github.com/JasonColapietro/awesome-x402) |
 | Brand assets | [suede-brand-assets](https://github.com/JasonColapietro/suede-brand-assets) |
 
 ## Token
@@ -71,30 +73,26 @@ See:
 
 ## x402 and ACP
 
-Suede currently exposes public x402 endpoints for paid music and video generation workflows. Public docs should point agents to branded discovery surfaces instead of non-public service origins.
+Suede exposes 20 paid x402 endpoints on Base mainnet USDC — full-length music generation, video, image, 12 musician tools (stems, mastering, lyrics, vocal isolation, and more), rights lookup, prompt/audio analysis, and on-chain Q&A — plus a 3-tier credit-purchase route. Prices range $0.003–$1.50 per call, each verified against a live `402 Payment Required` challenge. Public docs should point agents to branded discovery surfaces instead of non-public service origins.
 
-Current public x402 discovery:
+Current public x402 discovery (a curated 3-endpoint subset, plus credits, surfaced to agent marketplaces and Skyfire):
 
 ```text
 https://app.suedeai.ai/.well-known/x402
 https://app.suedeai.ai/.well-known/x402.json
 ```
 
-Current public paid endpoints:
-
-```text
-POST https://app.suedeai.ai/agent/generate
-POST https://app.suedeai.ai/create-music
-POST https://app.suedeai.ai/agent/video
-```
+The remaining endpoints are live and priced but not in the discovery documents — reachable by calling them directly.
 
 ACP-ready commerce is represented through public agent metadata and app-hosted
 x402 credit purchase flows. Internal origins, admin routes, and non-public
 commerce endpoints are intentionally excluded from this public overview.
 
-See:
+Full endpoint table, current pricing, and verification log:
 
 [suede-x402-acp](https://github.com/JasonColapietro/suede-x402-acp)
+
+Python SDK wrapping all 20 endpoints as typed client methods: [suede-sdk-python](https://github.com/Suede-AI/suede-sdk-python) (`pip install suede-ai`)
 
 ## Ecosystem
 
